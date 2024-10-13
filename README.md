@@ -1,22 +1,31 @@
 # Employee Search Autocomplete
 
-This project is a web application that provides an autocomplete feature for searching employees. It consists of a backend built with Java and Spring Framework, and a frontend developed using React, JavaScript, CSS, and HTML.
+This project is a web application that provides an autocomplete feature for searching employees. It consists of a backend built with Java and the Spring Framework, and a frontend developed using React, JavaScript, CSS, and HTML.
 
 ## Features
 
-- Autocomplete suggestions as the user types in the search bar.
-- Toggle between two lists of suggestions based on user interaction.
+- **Real-time Autocomplete**: Suggestions appear as the user types in the search bar.
+- **Flexible Filtering**: Supports filtering by employee name or job title.
+- **Responsive Design**: Optimized for desktop and mobile views.
 
-## Prerequisites
+## Getting Started
 
-- Java Development Kit (JDK) for the backend.
-- An IDE (e.g., IntelliJ IDEA) for development.
+### Prerequisites
 
-## Installation
+- **Java Development Kit (JDK)**: Required for running the backend.
+- **npm**: Required for running the frontend.
+- **IDE**: (e.g., IntelliJ IDEA for the backend, VS Code for the frontend).
 
-### Backend
+### Installation
 
-1. **Clone the Backend repository:**
+#### Backend
+
+1. **Clone the Backend Repository**:
    ```bash
    git clone https://github.com/yarinlug/Autocomplete-Backend.git
    cd Autocomplete-Backend
+   
+2. **Run the Backend:**
+   - Open the project in your preferred IDE.
+   - Build the project and resolve any dependencies.
+   - Run the application (Spring Boot will typically run on port 8080).
