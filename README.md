@@ -26,6 +26,6 @@ This project is a web application that provides an autocomplete feature for sear
    cd Autocomplete-Backend
    
 2. Run the Backend:
-   Open the project in your preferred IDE.
-   Build the project and resolve any dependencies.
-   Run the application (Spring Boot will typically run on port 8080).
+   - Open the project in your preferred IDE.
+   - Build the project and resolve any dependencies.
+   - Run the application (Spring Boot will typically run on port 8080).
