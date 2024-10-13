@@ -19,11 +19,9 @@ public class AutocompleteController {
         this.autocompleteService = autocompleteService;
     }
 
-@GetMapping("/autocomplete")
-public List<AutocompleteItem> autocomplete(
-        @RequestParam(value = "input", required = false, defaultValue = "") String input) {
-
-    return autocompleteService.autocomplete(input);
-}
-
+    @GetMapping("/autocomplete")
+    public List<AutocompleteItem> autocomplete(
+            @RequestParam(value = "input", required = false, defaultValue = "") String input) {
+        return autocompleteService.autocomplete(input);
+    }
 }

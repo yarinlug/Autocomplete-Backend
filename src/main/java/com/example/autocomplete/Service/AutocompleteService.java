@@ -52,12 +52,9 @@ public class AutocompleteService {
         createItem("/female-icon.png", "Nurse", "Catherine Medici ");
         createItem("/female-icon.png", "Model", "Mary DeGuise ");
         createItem("/female-icon.png", "Manager", "Shirley Hall ");
-
     }
 
     public List<AutocompleteItem> autocomplete(String input) {
-
-
         if (input.isEmpty()) {
             return items;
         }
@@ -71,7 +68,6 @@ public class AutocompleteService {
                         || item.getWorkTitle().toLowerCase().contains(input.toLowerCase()))
                 .collect(Collectors.toList());
     }
-
 
     public void createItem(String imageurl, String workTitle, String name) {
         AutocompleteItem newItem = new AutocompleteItem(imageurl, workTitle, name);
